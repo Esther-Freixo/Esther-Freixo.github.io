@@ -4,50 +4,51 @@
 }
 
 @font-face {
-    font-family: Syne;
-    src:url(Syne/Syne-VariableFont_wght.ttf);
+    font-family: Shrikhand;
+    src:url(Shrikhand/Shrikhand-Regular.ttf);
 }
 
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: Syne;
+    background-color: rgb(82, 1, 1);
+    font-family: Shrikhand;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p {
-    color: white;
+    color: #855435;
 }
 
 #subtitulo {
-    color: white;
+    color: #855435;
 }
 
 #licoesAprendidas, #licoesFuturas, #habilidades, #titulo  {
-    color: white;
+    color: #855435;
 }
 
 
 #meuNome a, #trybe{
     text-decoration: none;
-    color: white;
+    color: #855435;
 
 }
 
 #cabecario {
     text-decoration: none;
-    color: white;
+    color: #855435;
     font-size: 30px;
 }
 
 .linksCabecario a, #link {
     text-decoration: none;
     list-style: none;
-    color: white;    
+    color: #855435;    
 }
 
 .linksCabecario {
     display: flex;
+    list-style: none;
     margin-right: 50px;
     gap: 30px;
 }
