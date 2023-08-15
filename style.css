@@ -15,6 +15,10 @@ body {
     font-size: 20px;
 }
 
+#cabecalho {
+    margin-top: 0;
+}
+
 p {
     color: #855435;
 }
@@ -23,7 +27,7 @@ p {
     color: #855435;
 }
 
-#licoesAprendidas, #licoesFuturas, #habilidades, #titulo  {
+#licoesAprendidas, #licoesFuturas, #habilidades, #titulos  {
     color: #855435;
 }
 
@@ -34,19 +38,19 @@ p {
 
 }
 
-#cabecario {
+#cabecalho {
     text-decoration: none;
     color: #855435;
     font-size: 30px;
 }
 
-.linksCabecario a, .link a{
+.linksCabecalho a, .link a{
     text-decoration: none;
     list-style: none;
     color: #855435;    
 }
 
-.linksCabecario {
+.linksCabecalho {
     display: flex;
     list-style: none;
     margin-right: 50px;

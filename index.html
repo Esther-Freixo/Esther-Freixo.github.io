@@ -8,32 +8,28 @@
     <body>
 
 <!--         
-        2 - Adicione uma barra superior com um título	✖️
-        6 - Adicione um rodapé para a página	✖️
-        10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles	✖️
-        11 - Teste se a semântica da sua página está aprovada pelo site CodeSniffer	✖️
         12 - Adicione uma tabela à página	✖️
         13 - Utilize o Box model	✖️
         15 - Posicione a tag article e a tag aside uma ao lado da outra -->
 
-    <header>
+    <header id="cabecalho">
         <div>
-            <h2 id="cabecario">
+            <h1 id="titulo">
                 Portifólio
-            </h2>
+            </h1>
         </div>
 
-        <div>
-            <ul class="linksCabecario">
+        <nav>
+            <ul class="linksCabecalho">
                 <li><a href="#about-me">Sobre</a></li>
                 <li><a href="https://github.com/Esther-Freixo" target="_blank">Projetos</a></li>
                 <li><a href="mailto: freixo.esther@gmail.com" target="_blank">Contato</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <div>
-        <h1 id="meuNome"><a href="#foto">Esther Freixo</a></h2>
+        <h1 id="meuNome"><a href="#minha_foto">Esther Freixo</a></h2>
     </div>
 
     <div>
@@ -54,7 +50,7 @@
     </div>
 
     <div>
-        <h2>Sobre mim</h2>
+        <h2 id="about-me">Sobre mim</h2>
         <p>
             Bem-vindos! Sou <strong>Esther Freixo</strong>, sou apaixonada por tecnologia e movida pelo potencial de mudança positiva.
 
@@ -71,7 +67,7 @@
     </aside>
 
     <div>
-        <h4 id="titulo">Habilidades</h4>
+        <h3 id="titulos">Habilidades</h3>
         <ul id="habilidades">
             <li><strong>Curiosidade: </strong> Genuinamente interessada em explorar novas tecnologias, aprender continuamente e manter-me atualizada com as tendências do setor.</li>
             <li><strong>Adaptabilidade:</strong>Ajustando-se rapidamente a novas tecnologias, metodologias e situações no cenário tecnológico em constante evolução.</li>
@@ -102,7 +98,7 @@
             <li>JavaScript</li>
         </ul>
     </div>
-    <div id="licoesFuturas">
+    <aside id="licoesFuturas">
         <h2>Aprendizados futuros na Trybe</h2>
         <ul id="licoes_a_aprender">
             <li>React</li>
@@ -116,16 +112,15 @@
             <li>Docker</li>
             <li>Data Structure</li>
         </ul>
-    </div>
-    <div>
-        <h4>Contato</h4>
-        <div class="link">
-        <a href="https://www.instagram.com/estherfreixo/" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/in/esther-freixo/" target="_blank">Linkedin</a>
-        <a href="mailto: freixo.esther@gmail.com" target="_blank">Email</a>
-        </div>
-    </div>
+    </aside>
 
+    <footer id="rodape">
+        <nav class="link">
+            <a href="https://www.instagram.com/estherfreixo/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/esther-freixo/" target="_blank">Linkedin</a>
+            <a href="mailto: freixo.esther@gmail.com" target="_blank">Email</a>
+        </nav>
+    </footer>
 
 
 
