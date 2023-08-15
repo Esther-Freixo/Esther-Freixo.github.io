@@ -1,5 +1,18 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: Syne;
+    src:url(Syne/Syne-VariableFont_wght.ttf);
+}
+
 body {
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(0, 0, 0);
+    font-family: Syne;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 p {
@@ -10,18 +23,37 @@ p {
     color: white;
 }
 
-#licoesAprendidas {
+#licoesAprendidas, #licoesFuturas, #habilidades, #titulo  {
     color: white;
 }
 
-#licoesFuturas {
+
+#meuNome a, #trybe{
+    text-decoration: none;
     color: white;
+
 }
 
-#habilidades {
+#cabecario {
+    text-decoration: none;
     color: white;
+    font-size: 30px;
 }
 
-#titulo {
-    color: white;
+.linksCabecario a, #link {
+    text-decoration: none;
+    list-style: none;
+    color: white;    
+}
+
+.linksCabecario {
+    display: flex;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+header {
+    display: flex;
+    margin-right: 50px;
+    gap: 30px;
 }

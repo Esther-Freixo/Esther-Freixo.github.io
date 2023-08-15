@@ -7,7 +7,7 @@
     </head>
     <body>
 
-        
+<!--         
         2 - Adicione uma barra superior com um título	✖️
         6 - Adicione um rodapé para a página	✖️
         10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles	✖️
@@ -16,18 +16,26 @@
         13 - Utilize o Box model	✖️
         14 - Altere atributos relacionados às fontes	✖️
         15 - Posicione a tag article e a tag aside uma ao lado da outra -->
-    <div>
-        <h1><a href="#foto">Esther Freixo</a></h2>
-    </div>
 
     <header>
         <div>
-            <h2>
-                
+            <h2 id="cabecario">
+                Portifólio
             </h2>
         </div>
-        <div></div>
+
+        <div>
+            <ul class="linksCabecario">
+                <li><a href="#about-me">Sobre</a></li>
+                <li><a href="https://github.com/Esther-Freixo" target="_blank">Projetos</a></li>
+                <li><a href="mailto: freixo.esther@gmail.com" target="_blank">Contato</a></li>
+            </ul>
+        </div>
     </header>
+
+    <div>
+        <h1 id="meuNome"><a href="#foto">Esther Freixo</a></h2>
+    </div>
 
     <div>
         <h1 id="subtitulo">
@@ -42,19 +50,18 @@
     <div>
         <h3>índice</h3>
         <ol>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a id="link" href="#habilidades">Habilidades</a></li>
         </ol>
     </div>
 
     <div>
-        <h2>About me</h2>
-        <p id="about-me">
+        <h2>Sobre mim</h2>
+        <p>
             Bem-vindos! Sou <strong>Esther Freixo</strong>, sou apaixonada por tecnologia e movida pelo potencial de mudança positiva.
 
             Tenho imenso prazer em me envolver com projetos pioneiros, moldar tecnologias emergentes e imaginar suas eventuais aplicações no mundo real. Minha motivação vem da crença de que essas inovações podem influenciar e melhorar diretamente nossa vida diária.
             
-            Além disso, prospero na companhia de mentes brilhantes que compartilham o espírito de aprendizagem, atualmente na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. A convivência com eles é inspiradora e estimulante. Simultaneamente, sinto-me motivada pelas crescentes complexidades que marcam o meu percurso profissional, ansiosa por abraçar cada desafio como uma oportunidade de crescimento.
+            Além disso, prospero na companhia de mentes brilhantes que compartilham o espírito de aprendizagem, atualmente na <a id="trybe"  href="https://www.betrybe.com/" target="_blank">Trybe</a>. A convivência com eles é inspiradora e estimulante. Simultaneamente, sinto-me motivada pelas crescentes complexidades que marcam o meu percurso profissional, ansiosa por abraçar cada desafio como uma oportunidade de crescimento.
         </p>
     </div>
 
@@ -112,7 +119,7 @@
         </ul>
     </div>
     <div>
-        <h4>Contato</h4>
+        <h4 id="titulo">Contato</h4>
         <div><a href="https://www.instagram.com/estherfreixo/" target="_blank">Instagram</a></div>
         <div><a href="https://www.linkedin.com/in/esther-freixo/" target="_blank">Linkedin</a></div>
         <div><a href="mailto: freixo.esther@gmail.com" target="_blank">Email</a></div>
