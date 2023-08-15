@@ -12,7 +12,7 @@ body {
     background-color: rgb(82, 1, 1);
     font-family: Shrikhand;
     text-transform: uppercase;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 #cabecalho {
@@ -65,4 +65,17 @@ header {
 
 h2 {
     color: #855435;
+}
+
+#minha_foto {
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centralizarNome {
+    display: block;
+    text-align: center;
+    font-size: 50px;
 }
